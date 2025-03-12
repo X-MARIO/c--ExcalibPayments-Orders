@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcalibPayments.Orders.Web", "ExcalibPayments.Orders.Web\ExcalibPayments.Orders.Web.csproj", "{9F7946B3-02BF-4490-9A68-A34C766AF77C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F7946B3-02BF-4490-9A68-A34C766AF77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7946B3-02BF-4490-9A68-A34C766AF77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7946B3-02BF-4490-9A68-A34C766AF77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7946B3-02BF-4490-9A68-A34C766AF77C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
