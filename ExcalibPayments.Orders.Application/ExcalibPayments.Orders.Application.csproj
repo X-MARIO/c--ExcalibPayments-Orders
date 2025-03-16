@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ExcalibPayments.Orders.Domain\ExcalibPayments.Orders.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

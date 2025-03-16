@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcalibPayments.Orders.Web"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcalibPayments.Orders.Application", "ExcalibPayments.Orders.Application\ExcalibPayments.Orders.Application.csproj", "{8CBA8EF0-9938-432B-8A60-8F57DEF89B1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcalibPayments.Orders.Damain", "ExcalibPayments.Orders.Damain\ExcalibPayments.Orders.Damain.csproj", "{51B646ED-C733-4538-8AED-6E1DF635FCCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcalibPayments.Orders.Domain", "ExcalibPayments.Orders.Domain\ExcalibPayments.Orders.Domain.csproj", "{51B646ED-C733-4538-8AED-6E1DF635FCCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

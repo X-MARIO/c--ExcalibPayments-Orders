@@ -1,4 +1,4 @@
-﻿namespace ExcalibPayments.Orders.Damain.Entities;
+﻿namespace ExcalibPayments.Orders.Domain.Entities;
 
 public class CartEntity : BaseEntity
 {
