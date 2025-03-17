@@ -1,6 +1,9 @@
-﻿namespace ExcalibPayments.Orders.Web.Controllers;
+﻿using Microsoft.AspNetCore.Mvc;
 
-public class ApiBaseController
+namespace ExcalibPayments.Orders.Web.Controllers;
+
+[ApiController]
+public class ApiBaseController : ControllerBase
 {
     
     

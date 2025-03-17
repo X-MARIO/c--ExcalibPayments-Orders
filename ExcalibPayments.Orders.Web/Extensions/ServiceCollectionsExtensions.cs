@@ -46,6 +46,21 @@ public static class ServiceCollectionsExtensions
 
     public static WebApplicationBuilder AddData(this WebApplicationBuilder builder)
     {
-        builder.Services.AddDb
+        builder.Services.AddDbContext<OrdersDbContext>(opt =>
+        {
+            opt.UseNpgsql(builder.Configuration.GetConnectionString("Orders"));
+        });
+
+        return builder;
+    }
+
+    public static WebApplicationBuilder AddApplicationServices(this WebApplicationBuilder builder)
+    {
+        return builder;
+    }
+
+    public static WebApplicationBuilder AddIntegrationServices(this WebApplicationBuilder builder)
+    {
+        return builder;
     }
 }
